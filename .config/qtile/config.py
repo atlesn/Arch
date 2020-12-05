@@ -192,7 +192,7 @@ def init_keys():
             ### Dmenu Run Launcher
             Key(
                 [mod], "p",
-                lazy.spawn("dmenu_run -fn 'UbuntuMono Nerd Font:size=10' -h 20 -nb '#292d3e' -nf '#a7a7a7' -sb '#404354' -sf '#d8dee9' -p 'dmenu:'")
+                lazy.spawn("dmenu_run -fn 'UbuntuMono Nerd Font:size=10' -h 20 -nb '#191d2e' -nf '#a7a7a7' -sb '#404354' -sf '#d8dee9' -p 'dmenu:'")
                 ),
 
             ### My applications launched with HYPER + KEY
@@ -230,7 +230,7 @@ def init_keys():
 ##### BAR COLORS #####
 
 def init_colors():
-    return [["#292D3E", "#292D3E"], # panel background
+    return [["#191d2e", "#191d2e"], # panel background
             ["#434758", "#434758"], # background for current screen tab
             ["#D0D0D0", "#D0D0D0"], # font color for group names
             ["#CC6666", "#CC6666"], # color for layout widget

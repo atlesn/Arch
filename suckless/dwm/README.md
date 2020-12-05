@@ -1,11 +1,13 @@
 # dwm 6.2
 
+See also: https://github.com/geirda/dwm-geir.git
+
 Patches included:
 
 * attachbelow
 * autostart
 * centeredmaster
-* gridmode
+* gaplessgrid
 * layoutmenu
 * pertag
 * resetnmaster
@@ -34,27 +36,13 @@ To get a layouts menu when rightclicking the layouts-icon, please install xmenu:
 
 ### From precompiled binary:
 
-	$ wget https://github.com/geirda/Arch/raw/master/suckless/dwm/dwm-geir-6.2-4-x86_64.pkg.tar.zst
-	$ sudo pacman -U dwm-geir-6.2-4-x86_64.pkg.tar.zst
+	$ wget https://github.com/geirda/Arch/raw/master/suckless/dwm/dwm-geir-6.2-5-x86_64.pkg.tar.zst
+	$ sudo pacman -U dwm-geir-6.2-5-x86_64.pkg.tar.zst
 
 ### From PKGBUILD:
 
 	$ wget https://raw.githubusercontent.com/geirda/Arch/master/suckless/dwm/PKGBUILD
-	$ makepkg -i
+	$ makepkg -ci
 
-### Manually (and for other distros than Arch-based ones):
-
-	$ wget https://github.com/geirda/Arch/raw/master/suckless/dwm/dwm-geir.tar.xz
-	$ tar xvf dwm-geir.tar.xz
-	$ cd dwm-geir
-	$ sudo make install
-
-Install "Hack font" and "RobotoMono Nerd Font". "Hack" is usually found in your distro's repo, on a Debian-based system do a:
-
-	$ sudo apt install fonts-hack
-
-Download RobotoMono Nerd Font from https://www.nerdfonts.com/font-downloads and extract it to somewhere in your font path, like $HOME/.local/share/fonts/ or $HOME/.fonts/
-
-Optional: For a rightclick menu on the layouts icon, download and install xmenu: https://github.com/phillbush/xmenu
 
 ![suckless](https://raw.githubusercontent.com/geirda/Arch/master/suckless/suckless.png)

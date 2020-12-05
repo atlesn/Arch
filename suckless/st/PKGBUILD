@@ -3,15 +3,15 @@ pkgname="st-geir"
 pkgver=0.8.4
 pkgrel=2
 pkgdesc="A simple virtual terminal emulator for X"
-url="https://st.suckless.org"
+url="https://github.com/geirda/st-geir.git"
 arch=('i686' 'x86_64')
 license=('MIT')
 depends=('libx11' 'libxft' 'freetype2' 'ttf-hack')
 optdepends=(nerd-fonts-hack)
 provides=(st)
 conflicts=(st)
-source=("https://github.com/geirda/Arch/raw/master/suckless/st/st-geir.tar.xz")
-md5sums=('d2e9dffe46e181977d4e2d2a982d8043')
+source=("git+$url")
+md5sums=('SKIP')
 
 prepare() {
 	cd "$srcdir/$pkgname"
